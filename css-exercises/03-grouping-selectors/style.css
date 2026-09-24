@@ -1,0 +1,32 @@
+/*
+THIS WAS MY INITIAL SOLUTION BEFORE REALIZING THAT I HADN'T USED A GROUPING SELECTOR METHOD AS DESIRED
+
+.element {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman" sans-serif;
+}
+
+.element-a {
+    background-color: black;
+    color: white;
+}
+
+.element-b {
+    background-color: yellow;
+}
+*/
+
+
+.element-a, .element-b {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman" sans-serif;
+}
+
+.element-a {
+    background-color: black;
+    color: white;
+}
+
+.element-b {
+    background-color: yellow;
+}
